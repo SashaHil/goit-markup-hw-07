@@ -22,13 +22,15 @@
     <!--шапка-->
     <header>
       <div class="page-header container">
-        <nav class="page-header">
+        <nav class="header-nav">
           <a href="./index.html" class="logo"
             ><span class="logo__word">Web</span>Studio</a
           >
           <ul class="site-nav list">
             <li class="site-nav__link">
-              <a href="#" class="site-nav__link--current link">Студія</a>
+              <a href="#" class="site-nav__link site-nav__link--current link"
+                >Студія</a
+              >
             </li>
             <li class="site-nav__link">
               <a href="./portfolio.html" class="link">Портфоліо</a>
@@ -64,7 +66,7 @@
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
 
-          <button type="button" class="btn main__btn" data-modal-open>
+          <button type="button" class="btn btn--main" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -484,13 +486,13 @@
     <footer class="footer-page">
       <div class="container footer-page__items">
         <div>
-          <a href="./index.html" class="logo-footer"
+          <a href="./index.html" class="logo footer__logo"
             ><span class="logo__word">Web</span>Studio</a
           >
 
           <address>
-            <ul class="footer-page__address list">
-              <li class="footer-page__contact footer-page__contact--white">
+            <ul class="address list">
+              <li class="address__contact address__contact--white">
                 <a
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
@@ -499,20 +501,20 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer-page__contact">
+              <li class="address__contact">
                 <a href="mailto:info@devstudio.com" class="link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-page__contact">
+              <li class="address__contact">
                 <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
 
-        <div class="footer-page__social-links">
-          <p class="footer-page__text">приєднуйтесь</p>
+        <div>
+          <p class="footer-page__social-text">приєднуйтесь</p>
           <ul class="footer-page__list list">
             <li>
               <a
@@ -569,7 +571,7 @@
               placeholder="E-mail"
             />
 
-            <button type="submit" class="btn footer__btn">
+            <button type="submit" class="btn btn--footer">
               Підписатися
               <svg width="24" height="24" class="footer-page__icon-send">
                 <use href="./images/symbol-defs.svg#icon-send"></use>
@@ -635,21 +637,21 @@
               class="form__input"
             ></textarea>
           </div>
-          <label class="form__label">
+          <label class="checkbox">
             <input
               type="checkbox"
               name="policy"
-              class="form__checkbox"
+              class="checkbox__form"
               required
             />
-            <svg class="form__checkbox" width="16" height="15">
+            <svg class="checkbox__icon" width="16" height="15">
               <use href="./images/symbol-defs.svg#icon-check"></use>
             </svg>
             Погоджуюся з розсилкою та приймаю
-            <a href="#" class="form__policy-link">Умови договору</a></label
+            <a href="#" class="checkbox__policy-link">Умови договору</a></label
           >
 
-          <button type="submit" class="btn form__btn">Відправити</button>
+          <button type="submit" class="btn btn--form">Відправити</button>
         </form>
         <svg class="modal__icon" width="30" height="30" data-modal-close>
           <use href="./images/symbol-defs.svg#icon-close"></use>
