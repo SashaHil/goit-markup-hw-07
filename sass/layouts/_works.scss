@@ -111,7 +111,9 @@
   background-color: $work-bcg-color;
 
   transition: transform $duration-timing-function;
-  .works__items:hover & {
-    transform: translateY(0);
-  }
+}
+
+.link:hover .works__overlay,
+.link:focus .works__overlay {
+  transform: translateY(0);
 }
