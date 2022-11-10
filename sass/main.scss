@@ -2,16 +2,17 @@
 @import "./base/common";
 @import "./base/reset";
 @import "./utils/hidden";
-
-@import "./components/container";
-@import "./components/btn";
-@import "./components/modal";
+@import "./layouts/container";
+@import "./layouts/btn";
 
 @import "./layouts/header";
-@import "./layouts/hero";
-@import "./layouts/benefits";
-@import "./layouts/photo";
-@import "./layouts/team";
-@import "./layouts/clients";
-@import "./layouts/works";
+
+@import "./components/hero";
+@import "./components/benefits";
+@import "./components/photo";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/works";
+
 @import "./layouts/footer";
+@import "./components/modal";
